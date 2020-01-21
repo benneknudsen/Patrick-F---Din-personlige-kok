@@ -1890,13 +1890,13 @@ background-repeat: no-repeat;
 
     .Om_os {
         background-color: #f0f2f1;
-        height: 83vh;
+        height: 109vh;
 
     }
 
     .Om_os1 {
         background-color: #fff;
-        height: 85vh;
+        min-height: 95vh;
 
     }
 
