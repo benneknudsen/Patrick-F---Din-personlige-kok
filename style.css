@@ -1460,7 +1460,7 @@ background-repeat: no-repeat;
         font-size: 4vw;
         font-family: Tangerine, sans-serif;
         letter-spacing: 7px;
-        color: #466370;
+        color: #7191a3;
         font-weight: 100;
         padding-left: 20%;
         margin-top: -10px;
@@ -1487,7 +1487,11 @@ background-repeat: no-repeat;
         font-weight: 600;
         padding-right: 18%;
         width: 30%;
+    
+       
     }
+    
+
 
     .imgtxt {
         display: flex;
@@ -1557,7 +1561,7 @@ background-repeat: no-repeat;
         font-size: 4vw;
         font-family: Tangerine, sans-serif;
         letter-spacing: 7px;
-        color: #466370;
+        color: #7191a3;
         font-weight: 100;
         padding-left: 20%;
         margin-top: -10px;
@@ -1647,13 +1651,15 @@ background-repeat: no-repeat;
     }
 
     .undertext-BUF {
+        display: block;
         font-size: 14px;
         font-family: Heebo, sans-serif;
         letter-spacing: 2px;
         color: #466370;
         font-weight: 600;
         padding-left: 28%;
-        width: 30%;
+        padding-bottom: 40px;
+        width: 28%;
         margin-top: -110px;
     }
 
