@@ -1541,19 +1541,17 @@ background-repeat: no-repeat;
     
 
     .BP-Pil {
-        font-family: Heebo, sans-serif;
+        font-family: Heebo-Light, sans-serif;
         font-size: 26px;
         font-weight: 300;
         color: #466370;
         letter-spacing: 2.5px;
+        opacity: 0.6;
+  transition: 0.5s;
     }
 
     .BP-Pil:hover {
-        font-family: Heebo-Light, sans-serif;
-        font-size: 26px;
-        font-weight: 400;
-        color: #466370;
-        letter-spacing: 2.5px;
+        opacity: 1;
         
     }
 
@@ -1663,6 +1661,7 @@ background-repeat: no-repeat;
         font-weight: 300;
         color: #466370;
         letter-spacing: 2.5px;
+        
     }
 
 
@@ -2621,5 +2620,23 @@ background-repeat: no-repeat;
         top: 25%;
 
     }
+
+    .storkok {
+        position: relative;
+        max-width: 50%;
+        height: auto;
+        z-index: 19;
+        margin-left: 50%;
+        margin-top: -17.5%;
+    }
     
+
+    
+    #drawer ul {
+        list-style-type: none;
+        margin: 100px 0px 0px 120px;
+        font-family: Heebo, sans-serif;
+        font-size: 28px;
+        font-weight: 400;
+    }
 }
