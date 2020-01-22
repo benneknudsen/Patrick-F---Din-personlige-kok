@@ -853,10 +853,7 @@ background-repeat: no-repeat;
         font-weight: 500;
     }
 
-    .Varer {
-        min-height: 130vh;
-
-    }
+    
 
     .Varer-img {
         max-width: 100%;
@@ -1182,6 +1179,9 @@ background-repeat: no-repeat;
     }
 }
 
+
+
+
 /* ---------PC--------- */
 
 
@@ -1496,13 +1496,14 @@ background-repeat: no-repeat;
     }
 
     .fronttext-BP {
-        font-size: 14px;
+        font-size: 16px;
         font-family: Heebo, sans-serif;
         letter-spacing: 2px;
         color: #466370;
         font-weight: 600;
-        padding-right: 18%;
-        width: 30%;
+        padding-right: 25%;
+        width: 25%;
+        margin-top: 50px;
     
        
     }
@@ -1536,12 +1537,24 @@ background-repeat: no-repeat;
 
     }
 
+    
+    
+
     .BP-Pil {
         font-family: Heebo, sans-serif;
         font-size: 26px;
         font-weight: 300;
         color: #466370;
         letter-spacing: 2.5px;
+    }
+
+    .BP-Pil:hover {
+        font-family: Heebo-Light, sans-serif;
+        font-size: 26px;
+        font-weight: 400;
+        color: #466370;
+        letter-spacing: 2.5px;
+        
     }
 
 
@@ -1554,6 +1567,11 @@ background-repeat: no-repeat;
         color: #466370;
         width: 1.5%;
     }
+
+  
+
+
+    
 
     .layer1 {
         display: block;
@@ -1597,13 +1615,15 @@ background-repeat: no-repeat;
     }
 
     .fronttext-BUF {
-        font-size: 14px;
+        font-size: 16px;
         font-family: Heebo, sans-serif;
         letter-spacing: 2px;
         color: #466370;
         font-weight: 600;
-        padding-left: 18%;
-        width: 30%;
+        padding-left: 25%;
+        width: 26%;
+        margin-top: 25px;
+        
     }
 
     .imgtxt-BUF {
@@ -1912,13 +1932,13 @@ background-repeat: no-repeat;
 
     .Om_os {
         background-color: #f0f2f1;
-        height: 109vh;
+        height: 85vh;
 
     }
 
     .Om_os1 {
         background-color: #fff;
-        min-height: 95vh;
+        min-height: 80vh;
 
     }
 
@@ -2028,10 +2048,7 @@ background-repeat: no-repeat;
         font-weight: 500;
     }
 
-    .Varer {
-        min-height: 130vh;
 
-    }
 
     .Varer-img {
         max-width: 100%;
@@ -2075,7 +2092,7 @@ background-repeat: no-repeat;
     }
 
     .MAD {
-        min-height: 90vh;
+        min-height: 92vh;
         background-color: #f0f2f1;
         background-image: url(billeder/jakkelogo.png);
         background-repeat: no-repeat;
@@ -2133,6 +2150,7 @@ background-repeat: no-repeat;
         color: #466370;
         font-weight: 400;
         padding-top: 10px;
+        padding-bottom: 20px;
     }
 
     .MAD-fed {
@@ -2545,4 +2563,63 @@ background-repeat: no-repeat;
 
     }
 
+}
+
+/* ---------BÆRBAR--------- */
+@media screen 
+  and (min-device-width: 788px) 
+  and (max-device-width: 1650px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+    .fronttext-BP {
+        font-size: 14px;
+        font-family: Heebo, sans-serif;
+        letter-spacing: 2px;
+        color: #466370;
+        font-weight: 600;
+        padding-right: 18%;
+        width: 30%;
+        margin-top: 10px;
+    
+       
+    }
+    
+    .fronttext-BUF {
+        font-size: 14px;
+        font-family: Heebo, sans-serif;
+        letter-spacing: 2px;
+        color: #466370;
+        font-weight: 600;
+        padding-left: 18%;
+        width: 30%;
+    }
+
+    .Om_os {
+        background-color: #f0f2f1;
+        height: 109vh;
+
+    }
+
+    .Om_os1 {
+        background-color: #fff;
+        min-height: 95vh;
+
+    }
+
+    .footertxt1 {
+        display: block;
+        position: absolute;
+        left: 29.3%;
+        top: 50%;
+    }
+
+ 
+
+    .footertxt2 {
+        position: absolute;
+        right: 16.5%;
+        top: 25%;
+
+    }
+    
 }
