@@ -1144,7 +1144,7 @@ background-repeat: no-repeat;
         height: auto;
         z-index: 19;
         margin-left: 0%;
-        margin-top: 51%;
+        margin-top: 20.5%;
     }
 
 
@@ -1164,6 +1164,22 @@ background-repeat: no-repeat;
         font-size: 20px;
     }
 
+    .kontakt-p {
+        font-size: 15px;
+        font-family: Heebo-Light, sans-serif;
+        letter-spacing: 2px;
+        color: #466370;
+        font-weight: 400;
+       padding-top: 10px;
+        padding-left: 10%;
+        width: 70%;
+    }
+
+
+    .fas {
+        color: #466370;
+        padding-right: 15px;
+    }
 }
 
 /* ---------PC--------- */
@@ -2310,10 +2326,26 @@ background-repeat: no-repeat;
         height: auto;
         z-index: 19;
         margin-left: 50%;
-        margin-top: -14.2%;
+        margin-top: -20.75%;
+    }
+
+    .kontakt-p {
+        font-size: 20px;
+        font-family: Heebo-Light, sans-serif;
+        letter-spacing: 2px;
+        color: #466370;
+        font-weight: 400;
+       padding-top: 10px;
+        padding-left: 21%;
+        width: 20%;
     }
 
 
+    .fas {
+        color: #466370;
+        padding-right: 15px;
+    }
+}
 
 
 }
