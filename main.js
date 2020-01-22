@@ -13,6 +13,12 @@ for (i = 0; i < dropdown.length; i++) {
     });
 }
 
+const btn = document.getElementById('elem');
+
+btn.addEventListener('click', () => window.scrollTo({
+  top: 800,
+  behavior: 'smooth',
+}));
 
 var dropdown1 = document.getElementsByClassName("dropdown-btn-m");
 var i;
