@@ -25,14 +25,20 @@ $(document).ready(function(){
 	});
 });
 
+var dropdown2 = document.getElementsByClassName("#drawer ul a");
+var i;
 
-
-const btn = document.getElementById('elem');
-
-btn.addEventListener('click', () => window.scrollTo({
-  top: 800,
-  behavior: 'smooth',
-}));
+for (i = 0; i < dropdown2.length; i++) {
+    dropdown2[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var dropdownContent = this.nextElementSibling;
+        if (dropdownContent.style.display === "block") {
+            dropdownContent.style.display = "none";
+        } else {
+            dropdownContent.style.display = "block";
+        }
+    });
+}
 
 
 
