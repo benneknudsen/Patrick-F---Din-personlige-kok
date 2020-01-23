@@ -2544,11 +2544,24 @@ a {
 
 
     .fas {
-        color: #466370;
+        color: #AABDC8;
         padding-right: 15px;
     }
 
+    .roter{
+        -moz-transition: all 0.2s linear;
+        -webkit-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+    }
+    
+    .roter.ned{
+        -moz-transform:rotate(-180deg);
+        -webkit-transform:rotate(-180deg);
+        transform:rotate(-180deg);
+    }
 
+
+    
 }
 
 

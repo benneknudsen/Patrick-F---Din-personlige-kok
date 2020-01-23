@@ -57,6 +57,11 @@ $(document).ready(function () {
   });
 });
 
+$(document).ready(function () {
+  $('.dropdown-btn').click(function () {
+    $('.roter').toggleClass('ned');
+  });
+});
 
 
 $('.responsive').slick({
