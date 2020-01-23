@@ -1307,11 +1307,11 @@ background-repeat: no-repeat;
       #nav-icon1 span {
         display: block;
         position: absolute;
-        height: 1px;
+        height: 1.4px;
         width: 60%;
         background: #7191a3;
         border-radius: 5px;
-        opacity: 0.6;
+        opacity: 0.8;
         right: 0;
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
