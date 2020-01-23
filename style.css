@@ -309,7 +309,7 @@ a {
             display: block;
             border: none;
             background: none;
-            width: 120%;
+            width: 140%;
             text-align: left;
             cursor: pointer;
             outline: none;
@@ -1420,6 +1420,7 @@ background-repeat: no-repeat;
         font-family: Heebo, sans-serif;
         font-size: 28px;
         font-weight: 400;
+    width: 85%;
     }
 
 
