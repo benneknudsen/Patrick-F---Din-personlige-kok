@@ -1441,15 +1441,19 @@ background-repeat: no-repeat;
     }
 
     .dropdown-btn {
+        position: relative;
+        z-index: 75;
         font-family: Heebo, sans-serif;
         padding: 20px;
         color: #7191a3;
         font-weight: 400;
+       
+
         text-decoration: none;
         font-size: 28px;
         display: block;
         border: none;
-        background: none;
+        
         width: 110%;
         text-align: left;
         cursor: pointer;
@@ -1463,6 +1467,8 @@ background-repeat: no-repeat;
     }
 
     .dropdown-container {
+        position: relative;
+        z-index: 35;
         display: none;
         background-color: #fff;
 
@@ -1485,7 +1491,7 @@ background-repeat: no-repeat;
     .rotate1 {
         -moz-transition: all 1s linear;
         -webkit-transition: all 1s linear;
-        transition: all 1s linear;
+        transition: all 0.5s linear;
     }
 
     .down {
@@ -1496,12 +1502,26 @@ background-repeat: no-repeat;
         transform: translate(0px, -18px);
     }
 
+
+    @keyframes fadeIn{
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+      }
+
     .up {
+        position: relative;
+        top: -85px;
+        z-index: 3;
         -moz-transform: translate(0px, 108px);
         -webkit-transform: translate(0px, 108px);
         -o-transform: translate(0px, 108px);
-        -ms-transform: translate(0px, 108px);
-        transform: translate(0px, 108px);
+        -ms-transform: translate(0px, 10px);
+        transform: translate(0px, 65px);
+          animation: fadeIn ease 1.5s;
     }
 
     /* ------ Forside ----- */

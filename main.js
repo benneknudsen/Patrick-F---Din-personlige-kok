@@ -26,7 +26,7 @@ $(document).ready(function(){
 });
 
 
-var dropdown2 = document.getElementsByClassName("dropdown-container");
+var dropdown2 = document.getElementsByClassName("#drawer ul a");
 var i;
 
 for (i = 0; i < dropdown2.length; i++) {
@@ -70,9 +70,13 @@ $(".rotate").click(function () {
     $(this).toggleClass("down");
 })
 
-$(".rotate1").click(function () {
-  $(this).toggleClass("up");
-})
+
+
+$(document).ready(function(){
+	$('.dropdown-btn').click(function(){
+		$('.dropdown-container').toggleClass('up');
+	});
+});
 
 
 
