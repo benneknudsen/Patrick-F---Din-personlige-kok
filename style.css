@@ -1440,7 +1440,7 @@ background-repeat: no-repeat;
 
     #drawer ul a:hover {
         color: #0c3044;
-        font-weight: 700;
+        font-weight: 400;
 
     }
 
@@ -1491,15 +1491,15 @@ background-repeat: no-repeat;
     }
 
     .rotate {
-        -moz-transition: all 0.5s linear;
-        -webkit-transition: all 0.5s linear;
-        transition: all 0.5s linear;
+        -moz-transition: all 0.2s linear;
+        -webkit-transition: all 0.2s linear;
+        transition: all 0.2s linear;
     }
 
     .rotate1 {
-        -moz-transition: all 1s linear;
-        -webkit-transition: all 1s linear;
-        transition: all 0.5s linear;
+        -moz-transition: all 0.3s linear;
+        -webkit-transition: all 0.3s linear;
+        transition: all 0.3s linear;
     }
 
     .down {
@@ -1529,7 +1529,7 @@ background-repeat: no-repeat;
         -o-transform: translate(0px, 108px);
         -ms-transform: translate(0px, 10px);
         transform: translate(0px, 65px);
-          animation: fadeIn ease 1.5s;
+          animation: fadeIn ease 0.7s;
     }
 
     /* ------ Forside ----- */
