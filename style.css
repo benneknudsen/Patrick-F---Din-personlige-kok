@@ -1246,10 +1246,30 @@ a {
     }
 
 
+  
+
     .fas {
-        color: #466370;
+        color: #AABDC8;
         padding-right: 15px;
+        width: 5px;
+        height: -5px;
     }
+
+    .roter{
+        -moz-transition: all 0.2s linear;
+        -webkit-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+    }
+    
+    .roter.ned{
+        -moz-transform:rotate(-180deg);
+        -webkit-transform:rotate(-180deg);
+        transform:rotate(-180deg);
+        transform-origin: center center;
+    }
+
+    
+
 }
 
 
@@ -1382,7 +1402,13 @@ a {
 
 
 
-
+    .blurry {
+        -webkit-filter: blur(2px);
+        -moz-filter: blur(2px);
+        -o-filter: blur(2px);
+        -ms-filter: blur(2px);
+        filter: blur(2px);
+    }
 
 
 
@@ -2546,6 +2572,8 @@ a {
     .fas {
         color: #AABDC8;
         padding-right: 15px;
+        width: 5px;
+        height: -5px;
     }
 
     .roter{
@@ -2558,6 +2586,7 @@ a {
         -moz-transform:rotate(-180deg);
         -webkit-transform:rotate(-180deg);
         transform:rotate(-180deg);
+        transform-origin: center center;
     }
 
 

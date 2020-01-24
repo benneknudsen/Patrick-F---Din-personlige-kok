@@ -49,6 +49,17 @@ $(".rotate").click(function () {
   $(this).toggleClass("down");
 })
 
+$(document).ready(function () {
+  $('.dropdown-btn').click(function () {
+    $('.dropdown-container').toggleClass('up');
+  });
+});
+
+$(document).ready(function () {
+  $('#drawer-toggle').click(function () {
+    $('.blur').toggleClass('blurry');
+  });
+});
 
 
 $(document).ready(function () {
@@ -59,6 +70,12 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.dropdown-btn').click(function () {
+    $('.roter').toggleClass('ned');
+  });
+});
+
+$(document).ready(function () {
+  $('.dropdown-btn-m').click(function () {
     $('.roter').toggleClass('ned');
   });
 });
