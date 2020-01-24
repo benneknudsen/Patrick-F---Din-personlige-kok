@@ -63,7 +63,7 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
-  $('.dropdown-btn').click(function () {
+  $('.dropdown-btn-m').click(function () {
     $('.dropdown-container').toggleClass('up');
   });
 });

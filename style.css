@@ -5,6 +5,7 @@
 html {
     background: #fff;
     overflow-x: hidden;
+    
 
 
 }
@@ -402,7 +403,7 @@ a {
 
         font-size: 30px;
         font-family: Tangerine, sans-serif;
-        letter-spacing: 7px;
+        letter-spacing: 0.1em;
         color: #a0b6c2;
         font-weight: 400;
         padding-left: 10%;
@@ -965,7 +966,7 @@ a {
         font-size: 60px;
         font-family: Tangerine, sans-serif;
         letter-spacing: 3px;
-        color: #466370;
+        color: #7191a3;
         font-weight: 100;
         text-align: center;
 
@@ -1581,7 +1582,7 @@ a {
 
 
     .FRONT {
-        min-height: 50vh;
+        min-height: 100;
         background-image: url(billeder/gourmet.png);
         background-repeat: no-repeat;
         background-position-y: 28%;
