@@ -1477,6 +1477,7 @@ a {
     }
 
     .dropdown-btn {
+        display: flex;
         position: relative;
         z-index: 75;
         font-family: Heebo, sans-serif;
@@ -1618,7 +1619,18 @@ a {
         background-size: contain;
     }
 
+    .arrow-svg {
+        
+        
+     
+     
+  
+        width: 23px;
+        height: auto;
+        cursor: pointer;
 
+      
+    }  
     #elem {
         cursor: pointer;
     }
