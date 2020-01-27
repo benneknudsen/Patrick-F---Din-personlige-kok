@@ -62,6 +62,12 @@ $(document).ready(function () {
   });
 });
 
+$(document).ready(function () {
+  $('#drawer-togglem').click(function () {
+    $('.blur').toggleClass('blurry');
+  });
+});
+
 
 $(document).ready(function () {
   $('.dropdown-btn-m').click(function () {
