@@ -985,7 +985,7 @@ align-self: center;
 
 
     .MAD {
-        min-height: 80vh;
+        
         background-color: #f0f2f1;
         background-image: url(billeder/jakkelogo.png);
         background-repeat: no-repeat;
@@ -2181,7 +2181,7 @@ z-index: 21;
 
     .Om_os {
         background-color: #f0f2f1;
-        height: 90vh;
+        height: 95vh;
 
     }
 
@@ -2341,7 +2341,7 @@ align-self: center;
     }
 
     .MAD {
-        min-height: 72vh;
+       
         background-color: #f0f2f1;
         background-image: url(billeder/jakkelogo.png);
         background-repeat: no-repeat;
