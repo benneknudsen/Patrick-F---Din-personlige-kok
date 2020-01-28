@@ -72,7 +72,7 @@ a {
     }
 
     .FRONT {
-        height: 95vh;
+        height: 100vh;
         background-image: url(billeder/gourmet.png);
         background-repeat: no-repeat;
         background-position-y: 12%;
@@ -226,7 +226,7 @@ a {
 
 
         background: rgba(255, 255, 255, .0);
-        z-index: 5;
+        z-index: 1;
     }
 
    
@@ -237,17 +237,17 @@ a {
         -o-transition: .25s ease-in-out;
         transition: .25s ease-in-out;
         position: fixed;
-      
-        right: -82%;
-        height: 112%;
-        width: 70%;
+      top: 0;
+        right: -330px;
+        height: 100%;
+        width: 290px;
         background-image: url(billeder/burgerbaggrund.png);
         background-repeat: no-repeat;
-        background-size: cover;
+       
         overflow-x: hidden;
         padding: 20px;
         -webkit-overflow-scrolling: touch;
-z-index: 3;
+
     }
 
     /* actual page content pane */
@@ -357,7 +357,7 @@ z-index: 3;
         min-height: 120vh;
         background-image: url(billeder/Patrick.png);
         background-repeat: no-repeat;
-        background-position-y: 90%;
+        background-position-y: 96%;
         background-position-x: 50%;
         background-size: 80%;
 
