@@ -3351,5 +3351,43 @@ align-self: center;
         font-family: Heebo-Light;
     }
 
+    .arrow {
+        display: block;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        margin-left: -20px;
+        width: 45px;
+        height: 45px;
+        cursor: pointer;
+
+        background-image: url(billeder/SCROLL\ ON.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .layer1 {
+        display: block;
+        max-width: 70%;
+        height: auto;
+        align-self: center;
+    }
+
+    .layer1-mb {
+        display: none;
+    }
+
+
+    .layer2 {
+        display: block;
+        width: 65%;
+        height: auto;
+
+    }
+
+    .layer2-mb {
+        display: none;
+    }
+
 
 }
