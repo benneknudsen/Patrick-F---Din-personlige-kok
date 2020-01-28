@@ -133,11 +133,11 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
     document.getElementById("logo1").style.width = "200px";
-    document.getElementById("nav-icon1").style.margin = "60px 70px auto auto";
+    document.getElementById("nav-icon1").style.margin = "60px 70px 30px auto";
    
   } else {
     document.getElementById("logo1").style.width = "400px";
-    document.getElementById("nav-icon1").style.margin = "70px 90px auto auto";
+    document.getElementById("nav-icon1").style.margin = "70px 90px 50px auto";
    
   }
 }
