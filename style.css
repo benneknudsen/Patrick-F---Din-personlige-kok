@@ -26,6 +26,9 @@ a {
 
 }
 
+
+
+
 @font-face {
     font-family: Heebo;
     src: url(fonts/Heebo/Heebo-Thin.ttf);
@@ -52,6 +55,10 @@ a {
     -o-filter: blur(2px);
     -ms-filter: blur(2px);
     filter: blur(2px);
+}
+
+.slick-slider {
+    margin-bottom: 0px!important;
 }
 
 /* -----Media Queries----- */
@@ -355,11 +362,7 @@ a {
     .VELKOMMEN {
         background-color: #f0f2f1;
         
-        background-image: url(billeder/Patrick.png);
-        background-repeat: no-repeat;
-        background-position-y: 96%;
-        background-position-x: 50%;
-        background-size: 80%;
+        
 
 
     }
@@ -373,9 +376,12 @@ a {
         font-weight: 500;
         text-align: center;
         padding-top: 15%;
+        margin-bottom: -400px;
     }
 
     .fronttext-vk {
+        position: relative;
+        z-index: 66;
         font-size: 14px;
         font-family: Heebo-Light, sans-serif;
         letter-spacing: 2px;
@@ -383,6 +389,7 @@ a {
         font-weight: 500;
         padding-left: 8%;
         width: 90%;
+        
     }
 
 
@@ -504,8 +511,8 @@ a {
         color: #a0b6c2;
         font-weight: 400;
         padding-left: 9%;
-        margin-top: -10px;
-        padding-top: 20px;
+        
+        padding-top: 200px;
     }
 
     .titelh2-BUF {
@@ -539,7 +546,7 @@ a {
         z-index: 19;
         margin-top: 100px;
         margin-right: -2px;
-
+padding-bottom: 250px;
     }
 
     .frameimg-BUF {
@@ -604,7 +611,7 @@ a {
 
     .responsive {
 
-        padding-top: 100px;
+        padding-top: 50px;
         margin: 0 auto;
         width: 352px;
         outline: none;
@@ -830,7 +837,7 @@ a {
 
     .Om_os1 {
         background-color: #fff;
-        height: 90vh;
+      
 
     }
 
@@ -1655,14 +1662,23 @@ z-index: 21;
     .VELKOMMEN {
         
         background-color: #f0f2f1;
-        background-image: url(billeder/Patrick.png);
-        background-repeat: no-repeat;
-        background-position-y: 40%;
-        background-position-x: 70%;
-        background-size: 600px;
+ 
 
 
     }
+
+.Patrickimg {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.patricki {
+    max-width: 60%;
+    height: auto;
+    margin: 100px auto auto auto;
+    
+}
 
     .titel-vk {
         text-align: left;
@@ -1671,7 +1687,7 @@ z-index: 21;
         letter-spacing: 7px;
         color: #466370;
         font-weight: 300;
-        padding-left: 20%;
+        padding-left: 15%;
         padding-top: 6%;
     }
 
@@ -1683,6 +1699,7 @@ z-index: 21;
         font-weight: 600;
         padding-left: 22%;
         width: 22%;
+        
     }
 
     /* -----Bryllup----- */
@@ -1866,6 +1883,7 @@ z-index: 21;
         margin-top: -6.5%;
         margin-right: 9.5%;
         align-self: center;
+        padding-bottom: 10px;
 
     }
 
@@ -1942,9 +1960,10 @@ z-index: 21;
 
     .responsive {
 
-        padding-top: 100px;
+        padding-top: 60px;
         margin: 0 auto;
         width: 1002px;
+        padding-bottom: 60px;
     }
 
 
@@ -1955,6 +1974,7 @@ z-index: 21;
         width: 350px;
     }
 
+ 
     .slide-arrow {
         position: absolute;
         top: 50%;
@@ -2187,7 +2207,7 @@ z-index: 21;
 
     .Om_os1 {
         background-color: #fff;
-        min-height: 80vh;
+      
 
     }
 
@@ -3166,14 +3186,11 @@ z-index: 3;
     .VELKOMMEN {
       
         background-color: #f0f2f1;
-        background-image: url(billeder/Patrick.png);
-        background-repeat: no-repeat;
-        background-position-y: 90%;
-        background-position-x: 50%;
-        background-size: 50%;
-
+   
 
     }
+
+
 
     .titel-vk {
         text-align: center;
@@ -3222,7 +3239,7 @@ z-index: 3;
 
     .Om_os1 {
         background-color: #fff;
-        min-height: 70vh;
+      
 
     }
 
@@ -3291,4 +3308,41 @@ align-self: center;
     }
 
   
+}
+
+@media only screen and (min-width: 4000px) {
+
+    .FRONT {
+        height: 85vh;
+        background-image: url(billeder/gourmet.png);
+        background-repeat: no-repeat;
+        background-position-y: 30%;
+        background-position-x: 65%;
+        background-size: 2000px;
+    }
+
+    .titel {
+
+        font-size: 115px;
+        text-align: left;
+        font-family: Heebo, sans-serif;
+        letter-spacing: 2.5px;
+        color: #466370;
+        font-weight: 300;
+        padding-left: 19%;
+        padding-top: 1%;
+    }
+
+    .fronttext {
+        font-size: 36px;
+        font-family: Heebo-Light, sans-serif;
+        letter-spacing: 1.5px;
+        color: #7191a3;
+        font-weight: 500;
+        margin-top: 3%;
+        padding-left: 22%;
+        width: 24%;
+    }
+
+
 }
