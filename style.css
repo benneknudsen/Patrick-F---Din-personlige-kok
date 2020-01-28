@@ -354,7 +354,7 @@ a {
 
     .VELKOMMEN {
         background-color: #f0f2f1;
-        min-height: 120vh;
+        
         background-image: url(billeder/Patrick.png);
         background-repeat: no-repeat;
         background-position-y: 96%;
@@ -391,7 +391,7 @@ a {
 
     .BRYLLUP {
         background-color: #fff;
-        min-height: 160vh;
+        
 
 
     }
@@ -491,7 +491,7 @@ a {
 
     .BUFFET {
         background-color: #fff;
-        min-height: 160vh;
+        
 
 
     }
@@ -597,7 +597,7 @@ a {
     .GASTRO {
         display: block;
         background-color: #f0f2f1;
-        min-height: 82vh;
+        
 
 
     }
@@ -1653,7 +1653,7 @@ z-index: 21;
 
     /* -----Velkommen----- */
     .VELKOMMEN {
-        min-height:88vh;
+        
         background-color: #f0f2f1;
         background-image: url(billeder/Patrick.png);
         background-repeat: no-repeat;
@@ -1690,7 +1690,7 @@ z-index: 21;
 
     .BRYLLUP {
         background-color: #fff;
-        min-height: 105vh;
+     
 
 
     }
@@ -1813,7 +1813,7 @@ z-index: 21;
 
     .BUFFET {
         background-color: #fff;
-        min-height: 95vh;
+        
 
     }
 
@@ -1935,7 +1935,7 @@ z-index: 21;
     .GASTRO {
         display: inherit;
         background-color: #f0f2f1;
-        min-height: 82vh;
+       
 
 
     }
@@ -2644,12 +2644,7 @@ align-self: center;
 
     
 
-    .BRYLLUP {
-
-        min-height: 85vh;
-
-
-    }
+   
 
     .titel-BP {
 
@@ -2773,12 +2768,7 @@ align-self: center;
 
 
 
-    .BUFFET {
-
-        min-height: 82vh;
-
-    }
-
+  
 
 
   
@@ -3174,7 +3164,7 @@ z-index: 3;
     }
 
     .VELKOMMEN {
-        min-height:129vh;
+      
         background-color: #f0f2f1;
         background-image: url(billeder/Patrick.png);
         background-repeat: no-repeat;
@@ -3211,7 +3201,7 @@ z-index: 3;
     .GASTRO {
         display: inherit;
         background-color: #f0f2f1;
-        min-height: 60vh;
+        
 
 
     }
