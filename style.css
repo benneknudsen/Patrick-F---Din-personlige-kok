@@ -3317,13 +3317,13 @@ align-self: center;
         background-image: url(billeder/gourmet.png);
         background-repeat: no-repeat;
         background-position-y: 30%;
-        background-position-x: 65%;
-        background-size: 2000px;
+        background-position-x: 68%;
+        background-size: 1200px;
     }
 
     .titel {
 
-        font-size: 115px;
+        font-size: 105px;
         text-align: left;
         font-family: Heebo, sans-serif;
         letter-spacing: 2.5px;
@@ -3334,7 +3334,7 @@ align-self: center;
     }
 
     .fronttext {
-        font-size: 36px;
+        font-size: 20px;
         font-family: Heebo-Light, sans-serif;
         letter-spacing: 1.5px;
         color: #7191a3;
@@ -3342,6 +3342,13 @@ align-self: center;
         margin-top: 3%;
         padding-left: 22%;
         width: 24%;
+    }
+
+    .fronttext strong {
+        color: #466370;
+        font-weight: 700;
+        font-size: 22px;
+        font-family: Heebo-Light;
     }
 
 
