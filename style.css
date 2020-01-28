@@ -3310,7 +3310,7 @@ align-self: center;
   
 }
 
-@media only screen and (min-width: 4000px) {
+@media only screen and (min-width: 2500px) {
 
     .FRONT {
         height: 85vh;
