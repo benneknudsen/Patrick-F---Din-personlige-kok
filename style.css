@@ -3389,5 +3389,18 @@ align-self: center;
         display: none;
     }
 
+    .fronttext-BP {
+        font-size: 0.9vw;
+        font-family: Heebo, sans-serif;
+        letter-spacing: 2px;
+        color: #7191a3;
+        font-weight: 600;
+        padding-right: 35%;
+        width: 30%;
+
+
+
+    }
+
 
 }
