@@ -3427,13 +3427,13 @@ align-self: center;
     .VELKOMMEN {
         
         background-color: #f0f2f1;
-        min-height:80vh;
+        min-height:82vh;
         background-color: #f0f2f1;
         background-image: url(billeder/Patrick.png);
         background-repeat: no-repeat;
         background-position-y: 40%;
-        background-position-x: 60%;
-        background-size: 1000px;
+        background-position-x: 65%;
+        background-size: 900px;
 
 
     }
