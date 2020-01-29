@@ -3464,11 +3464,12 @@ align-self: center;
 
     .storkok {
         position: absolute;
-        max-width: 1750px;
+        max-width: 100%;
         height: auto;
         z-index: 19;
-        margin-left: 50%;
-        margin-top: -711.95px;
+        right: 0;
+        float: right;
+        margin-top: -411.95px;
     }
 
 
