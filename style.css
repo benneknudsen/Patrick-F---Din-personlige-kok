@@ -3467,10 +3467,19 @@ align-self: center;
         width: 100%;
         height: auto;
         z-index: 19;
-        margin-left: 80%;
-        margin-top: -911.95px;
+        margin-top: -96px;
     }
 
+    .kontakt-p {
+        font-size: 23px;
+        font-family: Heebo-Light, sans-serif;
+        letter-spacing: 2px;
+        color: #466370;
+        font-weight: 400;
+        padding-top: 10px;
+        padding-left: 21%;
+        width: 20%;
+    }
 
 }
 
