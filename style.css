@@ -1305,6 +1305,7 @@ align-self: center;
 
 
     #logo1 {
+        display: block;
         width: 400px;
         transition: 0.5s;
         margin: 20px 0 0 250px;
@@ -3498,6 +3499,10 @@ align-self: center;
         margin-top: 3%;
         padding-left: 21%;
         width: 24%;
+    }
+
+    #logo2 {
+        display: none;
     }
 
 }
