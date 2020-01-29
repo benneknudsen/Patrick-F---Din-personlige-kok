@@ -78,6 +78,10 @@ a {
 
     }
 
+    #logo2 {
+        display: none;
+    }
+
     .FRONT {
         height: 100vh;
         background-image: url(billeder/gourmet.png);
@@ -1233,14 +1237,13 @@ align-self: center;
         font-weight: 700;
     }
 
-
     .storkok {
-        position: relative;
+        position: absolute;
         max-width: 100%;
         height: auto;
         z-index: 19;
-        margin-left: 0%;
-        margin-top: 20.5%;
+        top: 31%;
+       
     }
 
 
@@ -1318,6 +1321,10 @@ align-self: center;
         float: left;
     }
 
+
+    #logo2 {
+        display: none;
+    }
 
     /* ---- NAVBAR ----- */
 
@@ -2241,13 +2248,13 @@ z-index: 21;
         font-weight: 700;
         padding-right: 19%;
         width: 40%;
-        margin-top: -10px;
+        margin-top: -5px;
     }
 
 
     .layer2-om {
         margin-top: -100px;
-        max-width: 40%;
+        max-width: 35%;
         height: auto;
 align-self: center;
     }
@@ -2663,7 +2670,14 @@ margin-block-end: 0px;
 @media only screen and (min-width: 700px) and (max-width: 1180px) {
 
     
-
+    .storkok {
+        position: absolute;
+        width: 60%;
+        height: auto;
+        z-index: 19;
+        top: -415px;
+        margin:auto auto auto 40%;
+    }
    
 
     .titel-BP {
@@ -3024,15 +3038,24 @@ z-index: 3;
     }
 
     .footermobil {
-        display: flex;
-        justify-content: center;
-        min-height: 40vh;
+        display: none;
+        
+    }
+
+    .footerdesktop {
+        position: relative;
+        display: block;
+        flex-direction: column;
+        min-height: 53vh;
         background-color: #2c6c89;
-        background-image: url(billeder/PF-FOOTER-01W.png);
+        background-image: url(billeder/P.png);
         background-repeat: no-repeat;
         background-position: center;
-        background-size: contain;
+        background-size: 80%;
+
+
     }
+
 
     .GASTRO-titelp {
         font-size: 48px;
@@ -3578,5 +3601,56 @@ align-self: center;
         height: 112.5vh;
 
     }
+
+    #logo1 {
+        display: none;
+    }
+    
+    #logo2 {
+        display: block;
+        width: 300px;
+        transition: 0.5s;
+        margin: 20px 0 0 200px;
+        height: auto;
+        float: left;
+    }
+
+
+
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+
+        position: sticky;
+        top: 0;
+        background-color: #fff;
+        z-index: 99;
+    }
+
+    .navbar-mobil {
+        display: none;
+    }
+
+
+    #nav-icon1 {
+        width: 60px;
+        height: 5px;
+        position: relative;
+        margin: 70px 90px 50px auto;
+        transition: 0.5s;
+z-index: 20;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        cursor: pointer;
+        pointer-events: none;
+    }
+
 
     }

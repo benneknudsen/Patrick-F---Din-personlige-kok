@@ -141,3 +141,18 @@ function scrollFunction() {
    
   }
 }
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+    document.getElementById("logo2").style.width = "200px";
+    document.getElementById("nav-icon1").style.margin = "60px 70px 30px auto";
+   
+  } else {
+    document.getElementById("logo2").style.width = "300px";
+    document.getElementById("nav-icon1").style.margin = "70px 90px 50px auto";
+   
+  }
+}
+
