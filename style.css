@@ -3427,14 +3427,13 @@ align-self: center;
     }
 
     .fronttext-BP {
-        font-size: 0.9vw;
+        font-size: 23px;
         font-family: Heebo, sans-serif;
         letter-spacing: 2px;
         color: #7191a3;
         font-weight: 600;
-        padding-right: 32%;
-        width: 30%;
-
+        padding-right: 29%;
+        width: 38%;
 
 
     }
@@ -3503,6 +3502,47 @@ align-self: center;
 
     #logo2 {
         display: none;
+    }
+
+    .frames-BUF {
+        display: flex;
+        justify-content: center;
+        z-index: 19;
+        margin-top: -6.5%;
+        margin-right: 5.5%;
+        align-self: center;
+        padding-bottom: 10px;
+
+    }
+
+    .frameimg-BUF {
+        border: 10px solid white;
+        max-width: 30%;
+        height: auto;
+        align-self: center;
+    }
+
+    .fronttext-BUF {
+        font-size: 0.8vw;
+        font-family: Heebo, sans-serif;
+        letter-spacing: 2px;
+        color: #7191a3;
+        font-weight: 600;
+        padding-left: 30.7%;
+        width: 50%;
+    }
+
+    .undertext-BUF {
+        display: block;
+        font-size: 0.8vw;
+        font-family: Heebo, sans-serif;
+        letter-spacing: 2px;
+        color: #7191a3;
+        font-weight: 600;
+        padding-left: 34%;
+        padding-bottom: 40px;
+        width: 25%;
+        margin-top: -110px;
     }
 
 }
