@@ -2341,12 +2341,13 @@ align-self: center;
     .Varer-h2 {
         font-size: 60px;
         font-family: Tangerine, sans-serif;
-        letter-spacing: 3px;
+        letter-spacing: 2.5px;
         color: #466370;
         font-weight: 100;
         text-align: center;
-
-        padding-top: 10px;
+margin-block-start: 0px;
+margin-block-end: 0px;
+        padding-top: 65px;
     }
 
     .Varer-p {
@@ -3327,6 +3328,9 @@ align-self: center;
   
 }
 
+
+/* --------iMac----- */
+
 @media screen and (min-width: 2400px) {
 
     .FRONT {
@@ -3420,7 +3424,60 @@ align-self: center;
     }
 
 
+    .VELKOMMEN {
+        
+        background-color: #f0f2f1;
+        min-height:80vh;
+        background-color: #f0f2f1;
+        background-image: url(billeder/Patrick.png);
+        background-repeat: no-repeat;
+        background-position-y: 40%;
+        background-position-x: 60%;
+        background-size: 1000px;
+
+
+    }
+
+
+
+    .titel-vk {
+        text-align: left;
+        font-size: 4vw;
+        font-family: Heebo, sans-serif;
+        letter-spacing: 7px;
+        color: #466370;
+        font-weight: 300;
+        padding-left: 20%;
+        padding-top: 6%;
+    }
+
+    .fronttext-vk {
+        font-size: 20px;
+        font-family: Heebo, sans-serif;
+        letter-spacing: 2px;
+        color: #466370;
+        font-weight: 600;
+        padding-left: 22%;
+        width: 22%;
+        
+    }
+
+    .storkok {
+        position: absolute;
+        max-width: 1750px;
+        height: auto;
+        z-index: 19;
+        margin-left: 50%;
+        margin-top: -711.95px;
+    }
+
+
 }
+
+
+
+/* --------Laptop----- */
+
 
 @media only screen and (min-width: 1080px) and (max-width: 1600px) {
   
