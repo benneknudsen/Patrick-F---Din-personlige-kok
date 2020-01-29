@@ -3467,7 +3467,8 @@ align-self: center;
         width: 100%;
         height: auto;
         z-index: 19;
-        margin-top: -96px;
+        margin-top: -306px;
+        margin-left: 55.06%
     }
 
     .kontakt-p {
@@ -3479,6 +3480,17 @@ align-self: center;
         padding-top: 10px;
         padding-left: 21%;
         width: 20%;
+    }
+
+    .fronttext-kontakt {
+        font-size: 20px;
+        font-family: Heebo-Light, sans-serif;
+        letter-spacing: 2px;
+        color: #466370;
+        font-weight: 400;
+        margin-top: 3%;
+        padding-left: 21%;
+        width: 24%;
     }
 
 }
