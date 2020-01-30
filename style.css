@@ -2199,7 +2199,7 @@ z-index: 21;
 
     .Om_os {
         background-color: #f0f2f1;
-        height: 95vh;
+       
 
     }
 
@@ -2262,6 +2262,7 @@ align-self: center;
         max-width: 50%;
         height: auto;
         display: block;
+        margin-bottom: -100px;
 
     }
 
@@ -2541,6 +2542,8 @@ margin-block-end: 0px;
         padding-left: 16%;
         margin-top: -10px;
         padding-top: 80px;
+        margin-block-start: 1px;
+        margin-block-end: 20px;
     }
 
     .txtpris {
@@ -3274,7 +3277,7 @@ z-index: 3;
    
     .Om_os {
         background-color: #f0f2f1;
-        height: 80vh;
+       
 
     }
 
@@ -3347,15 +3350,39 @@ align-self: center;
 
 /* --------iMac----- */
 
-@media screen and (min-width: 2400px) {
+@media screen and (min-width: 2300px) {
 
     .FRONT {
-        height: 90vh;
+        height: 82vh;
         background-image: url(billeder/gourmet.png);
         background-repeat: no-repeat;
-        background-position-y: 30%;
+        background-position-y: 60%;
         background-position-x: 68%;
-        background-size: 1200px;
+        background-size: 1300px;
+    }
+
+    .footertxt2 {
+        position: absolute;
+        right: 13vw;
+        top: 34%;
+        
+    }
+
+    .footertexthead1 {
+        font-size: 45px;
+        color: #bed8e6;
+        font-family: Heebo, sans-serif;
+        font-weight: 300;
+    }
+
+    .footertextR {
+        margin-top: -35px;
+        font-size: 22px;
+        color: #bed8e6;
+        flex-direction: column;
+        text-align: right;
+        width: 100%;
+        font-family: Heebo-Light, sans-serif;
     }
 
     .titel {
@@ -3391,7 +3418,7 @@ align-self: center;
     .arrow {
         display: block;
         position: absolute;
-        top: 20%;
+        top: 21%;
         left: 50%;
         margin-left: -20px;
         width: 45px;
@@ -3545,6 +3572,53 @@ align-self: center;
         margin-top: -110px;
     }
 
+    .titel-om {
+        font-size: 65px;
+        font-family: Heebo, sans-serif;
+        letter-spacing: 3px;
+        color: #466370;
+        font-weight: 300;
+        text-align: left;
+        padding-top: 3%;
+        margin-left: 23%;
+    }
+
+    .fronttext-om-L {
+        font-size: 22px;
+        font-family: Heebo-Light, sans-serif;
+        letter-spacing: 2px;
+        color: #7191a3;
+        font-weight: 700;
+        padding-left: 25%;
+        width: 34%;
+    }
+
+    .fronttext-om-R {
+        font-size: 22px;
+        font-family: Heebo-Light, sans-serif;
+        letter-spacing: 2px;
+        color: #7191a3;
+        font-weight: 700;
+        padding-right: 19%;
+        width: 40%;
+        margin-top: -5px;
+    }
+
+    .Om_os {
+        background-color: #f0f2f1;
+       
+    }
+
+    .storkok {
+        position: absolute;
+        max-width: 100%;
+        height: auto;
+        z-index: 19;
+        top: -586px;
+        margin: auto auto auto 62%;
+       
+    }
+
 }
 
 
@@ -3642,7 +3716,7 @@ align-self: center;
 
     .Om_os {
         background-color: #f0f2f1;
-        height: 112.5vh;
+      
 
     }
 
