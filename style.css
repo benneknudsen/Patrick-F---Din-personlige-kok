@@ -1737,11 +1737,12 @@ z-index: 21;
 
     .fronttext-BP {
         font-size: 0.8vw;
+        transform: skewX(-8deg);
         font-family: Heebo, sans-serif;
         letter-spacing: 2px;
         color: #7191a3;
         font-weight: 600;
-        padding-right: 25%;
+        padding-right: 27%;
         width: 30%;
 
 
