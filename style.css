@@ -1443,6 +1443,7 @@ z-index: 21;
 
         -webkit-text-size-adjust: none;
         position: fixed;
+        top:0;
         right: -60%;
         height: 100%;
         width: 55%;
