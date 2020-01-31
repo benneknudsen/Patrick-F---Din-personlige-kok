@@ -5,6 +5,7 @@
 
 html {
     overflow-x: hidden;
+    
 }
 
 body {
@@ -1599,7 +1600,7 @@ z-index: 21;
 
     .FRONT {
         position: relative;
-        height: 80vh;
+    height: 80vh;
         background-image: url(billeder/gourmet.png);
         background-repeat: no-repeat;
         background-position-y: 30%;
@@ -3712,9 +3713,9 @@ align-self: center;
         height: 75vh;
         background-image: url(billeder/gourmet.png);
         background-repeat: no-repeat;
-        background-position-y: 30%;
-        background-position-x: 65%;
-        background-size: 42%;
+        background-position-y: 45%;
+        background-position-x: 75%;
+        background-size: 50%;
     }
 
     .titel {
@@ -3907,5 +3908,25 @@ z-index: 20;
            
         }
 
+
+        #nav-icon1m {
+            width: 60px;
+            height: 5px;
+            position: relative;
+            margin: 40px -45px auto auto;
+    
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+            -webkit-transition: .5s ease-in-out;
+            -moz-transition: .5s ease-in-out;
+            -o-transition: .5s ease-in-out;
+            transition: .5s ease-in-out;
+            cursor: pointer;
+            pointer-events: none;
+            z-index: 6;
+        }
+    
 
         }
