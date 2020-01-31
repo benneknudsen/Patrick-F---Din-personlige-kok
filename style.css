@@ -150,7 +150,7 @@ a {
         width: 60px;
         height: 5px;
         position: relative;
-        margin: 30px -40px auto auto;
+        margin: 40px -70px auto auto;
 
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
@@ -249,9 +249,9 @@ a {
         transition: .25s ease-in-out;
         position: fixed;
       top: 0;
-        right: -330px;
+        right: -520px;
         height: 100%;
-        width: 290px;
+        width: 470px;
         background-image: url(billeder/burgerbaggrund.png);
         background-repeat: no-repeat;
        
@@ -297,15 +297,17 @@ a {
 
     #drawerm ul {
         list-style-type: none;
-        margin: 110px 10px 0px 35px;
+        margin: 110px 10px 0px 105px;
         font-family: Heebo, sans-serif;
-        font-size: 20px;
+        font-size: 30px;
         font-weight: 700;
+        background-color: #fff;
+        
     }
 
     #drawerm ul a {
         display: block;
-        padding: 10px;
+        padding: 20px;
         color: #7191a3;
         text-decoration: none;
     }
@@ -316,18 +318,18 @@ a {
 
 
     .calendarm {
-        padding: 10px;
+        padding: 20px;
         max-width: 50%;
         height: auto;
     }
 
     .dropdown-btn-m {
         font-family: Heebo, sans-serif;
-        padding: 10px;
+        padding: 20px;
         color: #7191a3;
         font-weight: 700;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 30px;
         display: block;
         border: none;
         background: none;
@@ -346,15 +348,16 @@ a {
     .dropdown-container-m {
         display: none;
         background-color: #fff;
-
-        font-size: 14px;
+       
+        font-size: 12px;
         font-family: Heebo-Light, sans-serif;
 
     }
 
     .prøve-m {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
+        padding: 6px;
     }
 
 
@@ -615,7 +618,7 @@ padding-bottom: 250px;
 
         padding-top: 50px;
         margin: 0 auto;
-        width: 352px;
+        width: 100%;
         outline: none;
     }
 
@@ -1595,6 +1598,7 @@ z-index: 21;
   
 
     .FRONT {
+        position: relative;
         height: 80vh;
         background-image: url(billeder/gourmet.png);
         background-repeat: no-repeat;
@@ -1634,7 +1638,7 @@ z-index: 21;
     .arrow {
         display: block;
         position: absolute;
-        top: 18%;
+        bottom: 0.2%;
         left: 50%;
         margin-left: -20px;
         width: 40px;
@@ -2665,7 +2669,7 @@ margin-block-end: 0px;
 
 /* ----IPAD----*/
 
-@media only screen and (min-width: 700px) and (max-width: 1180px) {
+@media only screen and (min-width: 900px) and (max-width: 1180px) {
 
 
     #drawerm ul {
@@ -3137,22 +3141,10 @@ z-index: 3;
 
     }
 
-    .arrow {
-        display: block;
-        position: absolute;
-        top: 19.5%;
-        left: 50%;
-        margin-left: -20px;
-        width: 40px;
-        height: 40px;
-        cursor: pointer;
-
-        background-image: url(billeder/SCROLL\ ON.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
+  
 
     .FRONT {
+        position: relative;
         height: 85vh;
         background-image: url(billeder/gourmet.png);
         background-repeat: no-repeat;
@@ -3436,6 +3428,7 @@ align-self: center;
 @media screen and (min-width: 2300px) {
 
     .FRONT {
+        position: relative;
         height: 82vh;
         background-image: url(billeder/gourmet.png);
         background-repeat: no-repeat;
@@ -3501,7 +3494,7 @@ align-self: center;
     .arrow {
         display: block;
         position: absolute;
-        top: 21%;
+        bottom: 0.2%;
         left: 50%;
         margin-left: -20px;
         width: 45px;
@@ -3715,12 +3708,13 @@ align-self: center;
 
     
     .FRONT {
+        position: relative;
         height: 75vh;
         background-image: url(billeder/gourmet.png);
         background-repeat: no-repeat;
         background-position-y: 30%;
         background-position-x: 65%;
-        background-size: 55%;
+        background-size: 42%;
     }
 
     .titel {
@@ -3786,7 +3780,7 @@ align-self: center;
     .arrow {
         display: block;
         position: absolute;
-        top: 17.5%;
+        bottom: 0.2%;
         left: 50%;
         margin-left: -20px;
         width: 40px;
@@ -3856,3 +3850,62 @@ z-index: 20;
 
 
     }
+
+    @media only screen and (max-width: 322px) {
+
+        .FRONT {
+            height: 130vh;
+            background-image: url(billeder/gourmet.png);
+            background-repeat: no-repeat;
+            background-position-y: 32%;
+            background-position-x: 20%;
+            background-size: 120%;
+        }
+
+        .VELKOMMEN {
+            background-color: #f0f2f1;
+            min-height: 170vh;
+            background-image: url(billeder/Patrick.png);
+            background-repeat: no-repeat;
+            background-position-y: 96%;
+            background-position-x: 50%;
+            background-size: 80%;
+        }
+
+        .frameimg {
+            border: 5px solid white;
+            max-width: 26%;
+            height: 100px;
+        }
+
+        .nextpil {
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 20px;
+            margin-top: -175px;
+        }
+
+        .frameimg-BUF {
+            border: 2px solid white;
+            max-width: 40%;
+            height: 110px;
+        }
+
+        #drawerm ul {
+            list-style-type: none;
+            margin: 110px 10px 0px 145px;
+            font-family: Heebo, sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            background-color: #fff;
+            
+        }
+
+        .dropdown-btn-m {
+            
+            font-size: 20px;
+           
+        }
+
+
+        }
