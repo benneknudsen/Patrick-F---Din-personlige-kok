@@ -3549,6 +3549,11 @@ align-self: center;
 
     }
 
+    .frameimg {
+        border: 5px solid white;
+        max-width: 26%;
+        height: 320px;
+    }
 
     .VELKOMMEN {
         
@@ -3627,9 +3632,9 @@ align-self: center;
     }
 
     .frameimg-BUF {
-        border: 10px solid white;
+        border: 5px solid white;
         max-width: 30%;
-        height: auto;
+        height: 330px;
         align-self: center;
     }
 
