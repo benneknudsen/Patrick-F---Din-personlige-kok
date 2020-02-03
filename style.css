@@ -170,7 +170,7 @@ a {
         display: block;
         position: absolute;
         height: 1.1px;
-        width: 35%;
+        width: 22%;
         background: #7191a3;
         border-radius: 5px;
         opacity: 0.9;
@@ -1308,11 +1308,11 @@ align-self: center;
 
     #logo1 {
         display: block;
-        width: 400px;
+        width: 350px;
         transition: 0.5s;
         -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
-        margin: 20px 0 0 250px;
+        margin: 60px 0 0 250px;
         height: auto;
         float: left;
     }
@@ -1343,7 +1343,7 @@ align-self: center;
         width: 60px;
         height: 5px;
         position: relative;
-        margin: 70px 90px 50px auto;
+        margin: 100px 130px 50px auto;
         transition: 0.5s;
 z-index: 20;
         -webkit-transform: rotate(0deg);
@@ -1362,7 +1362,7 @@ z-index: 20;
         display: block;
         position: absolute;
         height: 1.4px;
-        width: 40%;
+        width: 22%;
         background: #aabdc8;
         border-radius: 5px;
         opacity: 1;
@@ -1424,7 +1424,7 @@ z-index: 20;
         user-select: none;
         position: relative;
         right: 160px;
-        height: 100px;
+        height: 120px;
         width: 100px;
 z-index: 21;
         background: rgba(255, 255, 255, .0);
@@ -1626,7 +1626,7 @@ z-index: 21;
         letter-spacing: 1.5px;
         color: #7191a3;
         font-weight: 500;
-        margin-top: 3%;
+        margin-top: -2%;
         padding-left: 22%;
         width: 24%;
     }
@@ -1639,7 +1639,7 @@ z-index: 21;
     .arrow {
         display: block;
         position: absolute;
-        bottom: 0.2%;
+        bottom: 1.4%;
         left: 50%;
         margin-left: -20px;
         width: 40px;
@@ -1741,14 +1741,14 @@ z-index: 21;
     }
 
     .fronttext-BP {
-        font-size: 0.8vw;
+        font-size: 0.9vw;
         transform: skewX(-8deg);
         font-family: Heebo, sans-serif;
         letter-spacing: 2px;
         color: #7191a3;
         font-weight: 600;
-        padding-right: 27%;
-        width: 30%;
+        padding-right: 22%;
+        width: 32%;
 
 
 
@@ -1812,7 +1812,7 @@ z-index: 21;
         font-size: 30px;
         align-self: center;
         color: #466370;
-        width: 1.5%;
+        width: 1.2%;
     }
 
 
@@ -1941,15 +1941,15 @@ z-index: 21;
 
     .undertext-BUF {
         display: block;
-        font-size: 0.8vw;
-        font-family: Heebo, sans-serif;
-        letter-spacing: 2px;
-        color: #7191a3;
-        font-weight: 600;
-        padding-left: 28%;
-        padding-bottom: 40px;
-        width: 28%;
-        margin-top: -110px;
+    font-size: 0.8vw;
+    font-family: Heebo, sans-serif;
+    letter-spacing: 2px;
+    color: #7191a3;
+    font-weight: 600;
+    padding-left: 30%;
+    padding-bottom: 40px;
+    width: 24%;
+    margin-top: -110px;
     }
 
 
@@ -2996,7 +2996,7 @@ margin-block-end: 0px;
         display: block;
         position: absolute;
         height: 1.4px;
-        width: 40%;
+        width: 22%;
         background: #7191a3;
         border-radius: 5px;
         opacity: 0.6;

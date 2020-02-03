@@ -134,12 +134,14 @@ function scrollFunction() {
   if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
     document.getElementById("logo1").style.width = "200px";
     document.getElementById("logo2").style.width = "200px";
-    document.getElementById("nav-icon1").style.margin = "60px 70px 30px auto";
+    document.getElementById("nav-icon1").style.margin = "50px 70px 30px auto";
+    document.getElementById("logo1").style.margin = "20px 0 0 250px";
    
   } else {
-    document.getElementById("logo1").style.width = "400px";
+    document.getElementById("logo1").style.width = "350px";
     document.getElementById("logo2").style.width = "300px";
-    document.getElementById("nav-icon1").style.margin = "70px 90px 50px auto";
+    document.getElementById("nav-icon1").style.margin = "100px 130px 50px auto";
+    document.getElementById("logo1").style.margin = "60px 0 0 250px";
    
   }
 }
