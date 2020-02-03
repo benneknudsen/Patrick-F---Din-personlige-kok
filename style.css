@@ -763,20 +763,75 @@ padding-bottom: 250px;
     /* -----FOOTER----- */
 
     .footermobil {
-        display: flex;
-        justify-content: center;
-        min-height: 120vh;
+        position: relative;
+        display: block;
+        flex-direction: column;
+        height: 800px;
         background-color: #2c6c89;
         background-image: url(billeder/footer-mobil.png);
         background-repeat: no-repeat;
         background-position: center;
-
+       background-size: contain;
 
 
     }
 
     .footerdesktop {
         display: none;
+    }
+
+
+    .footertxt1-mobil {
+        display: block;
+        position: absolute;
+        right: 10.5vw;
+        top: 70%;
+    }
+
+    .footertxt2-mobil {
+        display: block;
+        position: absolute;
+        right: 10.5vw;
+        top: 18.5%;
+
+    }
+
+    .footertextL-m {
+        
+        font-size: 16px;
+        margin-top: -10px;
+        color: #bed8e6;
+        flex-direction: column;
+        text-align: right;
+        width: 100%;
+        font-family: Heebo-Light, sans-serif;
+    }
+
+    .footertextR-m {
+      
+        font-size: 16px;
+        margin-top: -30px;
+        color: #bed8e6;
+        flex-direction: column;
+        text-align: right;
+        width: 100%;
+        font-family: Heebo-Light, sans-serif;
+    }
+
+    .footertexthead-m {
+        font-size: 25px;
+        color: #bed8e6;
+        flex-direction: column;
+        text-align: right;
+        width: 100%;
+        font-family: Heebo-Light, sans-serif;
+    }
+
+    .footertexthead1-m {
+        font-size: 35px;
+        color: #bed8e6;
+        font-family: Heebo, sans-serif;
+        font-weight: 300;
     }
 
 
