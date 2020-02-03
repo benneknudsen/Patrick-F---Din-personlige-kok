@@ -1773,9 +1773,9 @@ z-index: 21;
     }
 
     .frameimg {
-        border: 10px solid white;
+        border: 5px  solid white;
         max-width: 16%;
-        height: auto;
+        height: 200px;
     }
 
     .nextpil {
@@ -1863,12 +1863,12 @@ z-index: 21;
     }
 
     .fronttext-BUF {
-        font-size: 0.8vw;
+        font-size: 0.9vw;
         font-family: Heebo, sans-serif;
         letter-spacing: 2px;
         color: #7191a3;
         font-weight: 600;
-        padding-left: 30%;
+        padding-left: 28%;
         width: 50%;
 
 
@@ -1885,7 +1885,7 @@ z-index: 21;
         display: flex;
         justify-content: center;
         z-index: 19;
-        margin-top: -6.5%;
+        margin-top: -7.5%;
         margin-right: 9.5%;
         align-self: center;
         padding-bottom: 10px;
@@ -1894,7 +1894,7 @@ z-index: 21;
 
     .frameimg-BUF {
         border: 10px solid white;
-        max-width: 20%;
+        max-width: 30%;
         height: auto;
         align-self: center;
     }
