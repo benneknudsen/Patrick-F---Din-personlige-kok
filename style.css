@@ -50,13 +50,7 @@ a {
     src: url(fonts/Heebo/Heebo-Light.ttf);
 }
 
-.blurry {
-    -webkit-filter: blur(2px);
-    -moz-filter: blur(2px);
-    -o-filter: blur(2px);
-    -ms-filter: blur(2px);
-    filter: blur(2px);
-}
+
 
 .slick-slider {
     margin-bottom: 0px!important;
@@ -69,7 +63,13 @@ a {
 
 @media only screen and (min-width: 300px) {
    
-   
+    .blurry {
+        -webkit-filter: blur(0px);
+        -moz-filter: blur(0px);
+        -o-filter: blur(0px);
+        -ms-filter: blur(0px);
+        filter: blur(0px);
+    }
 
     .logo {
         width: 100%;
@@ -369,16 +369,21 @@ a {
 
     .VELKOMMEN {
         background-color: #f0f2f1;
-        min-height: 120vh;
-        background-image: url(billeder/Patrick.png);
-        background-repeat: no-repeat;
-        background-position-y: 96%;
-        background-position-x: 50%;
-        background-size: 80%;
+        
+       
         
 
 
     }
+
+
+.kok-billede {
+    padding-top: 20px;
+    display: flex;
+    max-width: 70%;
+    height: auto;
+    margin:0 auto;
+}
 
     .titel-vk {
 
@@ -785,14 +790,14 @@ padding-bottom: 250px;
         display: block;
         position: absolute;
         right: 10.5vw;
-        top: 70%;
+        top: 75%;
     }
 
     .footertxt2-mobil {
         display: block;
         position: absolute;
         right: 10.5vw;
-        top: 18.5%;
+        top: 15.5%;
 
     }
 
@@ -1290,7 +1295,7 @@ align-self: center;
         max-width: 100%;
         height: auto;
         z-index: 19;
-        top: 521px;
+        top: -290px;
        
     }
 
@@ -1359,7 +1364,13 @@ align-self: center;
 
 @media only screen and (min-width: 1080px) {
   
-
+    .blurry {
+        -webkit-filter: blur(2px);
+        -moz-filter: blur(2px);
+        -o-filter: blur(2px);
+        -ms-filter: blur(2px);
+        filter: blur(2px);
+    }
 
     #logo1 {
         display: block;
@@ -1737,6 +1748,10 @@ z-index: 21;
 
     }
 
+    .kok-billede {
+       display: none;
+    }
+    
 
 
     .titel-vk {
@@ -2727,7 +2742,13 @@ margin-block-end: 0px;
 
 @media only screen and (min-width: 700px) and (max-width: 1200px) {
 
-
+    .blurry {
+        -webkit-filter: blur(0px);
+        -moz-filter: blur(0px);
+        -o-filter: blur(0px);
+        -ms-filter: blur(0px);
+        filter: blur(0px);
+    }
 
 
 #logo1 {
@@ -2790,18 +2811,7 @@ margin-block-end: 0px;
 
     }
 
-    .VELKOMMEN {
-      
-        background-color: #f0f2f1;
-        min-height:85vh;
-        background-color: #f0f2f1;
-        background-image: url(billeder/Patrick.png);
-        background-repeat: no-repeat;
-        background-position-y: 40%;
-        background-position-x: 70%;
-        background-size: 700px;
-
-    }
+  
 
 
     .imgtxt {
@@ -3239,7 +3249,7 @@ z-index: 3;
         display: block;
         position: absolute;
         right: 14vw;
-        top: 30%;
+        top: 35%;
 
     }
 
@@ -3264,7 +3274,7 @@ z-index: 3;
     }
 
     .footertexthead1 {
-        font-size: 40px;
+        font-size: 30px;
         color: #bed8e6;
         font-family: Heebo, sans-serif;
         font-weight: 300;
@@ -3274,7 +3284,7 @@ z-index: 3;
 
     .footertexthead1 strong {
         color: #6c98ad;
-        font-size: 40px;
+        font-size: 30px;
         font-family: Heebo, sans-serif;
         font-weight: 300;
     }
@@ -3360,16 +3370,7 @@ z-index: 3;
         cursor: pointer;
     }
 
-    .VELKOMMEN {
-        background-color: #f0f2f1;
-        min-height: 90vh;
-        background-color: #f0f2f1;
-        background-image: url(billeder/Patrick.png);
-        background-repeat: no-repeat;
-        background-position-y: 100%;
-        background-position-x: 50%;
-        background-size: 40%;
-    }
+   
 
 
 
@@ -3488,6 +3489,14 @@ align-self: center;
 /* --------iMac----- */
 
 @media screen and (min-width: 2300px) {
+
+    .blurry {
+        -webkit-filter: blur(2px);
+        -moz-filter: blur(2px);
+        -o-filter: blur(2px);
+        -ms-filter: blur(2px);
+        filter: blur(2px);
+    }
 
     .FRONT {
         position: relative;
@@ -3623,6 +3632,11 @@ align-self: center;
 
 
     }
+
+    .kok-billede {
+        display: none;
+    }
+    
 
 
 
@@ -3773,7 +3787,13 @@ align-self: center;
 @media only screen and (min-width: 1080px) and (max-width: 1600px) {
   
 
-    
+    .blurry {
+        -webkit-filter: blur(2px);
+        -moz-filter: blur(2px);
+        -o-filter: blur(2px);
+        -ms-filter: blur(2px);
+        filter: blur(2px);
+    }
     .FRONT {
         position: relative;
         height: 75vh;
@@ -3819,6 +3839,11 @@ align-self: center;
         background-size: 500px;
 
     }
+
+    .kok-billede {
+        display: none;
+    }
+    
 
 
     .titel-vk {
@@ -3921,6 +3946,14 @@ z-index: 20;
 
     @media only screen and (max-width: 322px) {
 
+        .blurry {
+            -webkit-filter: blur(0px);
+            -moz-filter: blur(0px);
+            -o-filter: blur(0px);
+            -ms-filter: blur(0px);
+            filter: blur(0px);
+        }
+
         .FRONT {
             height: 130vh;
             background-image: url(billeder/gourmet.png);
@@ -3939,6 +3972,11 @@ z-index: 20;
             background-position-x: 50%;
             background-size: 80%;
         }
+
+        .kok-billede {
+            display: none;
+        }
+        
 
         .frameimg {
             border: 5px solid white;
