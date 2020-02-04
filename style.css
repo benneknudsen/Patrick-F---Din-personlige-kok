@@ -84,7 +84,7 @@ a {
     }
 
     .FRONT {
-        height: 100vh;
+        
         background-image: url(billeder/gourmet.png);
         background-repeat: no-repeat;
         background-position-y: 12%;
